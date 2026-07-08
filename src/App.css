@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f6f7fb; color: #111; }
+.container { max-width: 420px; margin: 64px auto; padding: 24px; background: #fff; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+h1 { margin: 0 0 16px; font-size: 22px; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+input { padding: 10px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; }
+button { width: 100%; padding: 10px 12px; border: 0; border-radius: 8px; background: #2563eb; color: #fff; font-size: 14px; cursor: pointer; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+.helper { margin-top: 12px; font-size: 13px; color: #444; }
